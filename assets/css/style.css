@@ -1,5 +1,14 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css);
+body{
+background-image: url("../images/bg4.jpg");
+background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+}
 
 #bg{
   position: relative;
@@ -23,15 +32,15 @@
   color: #80ced6;
 }
 
-#h1_name,
+/* #h1_name,
 #h4_data{
   margin-left:150px;
   margin-right:150px;
-}
+} */
 
 .textOverImage {
     /* position: relative; */
-    top:0;  
+    /* top:0;   */
     text-align: center;
     color: white;
   }
@@ -156,6 +165,9 @@
     margin: 0 auto; /* Added */
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
+}
+#sticky-footer{
+  box-shadow: 10px 10px 5px grey;
 }
 
 
